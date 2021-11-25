@@ -1,0 +1,357 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    
+}
+header{
+    background-color: #eaeaea;
+}
+nav{
+    display: flex;
+    padding: 30px 60px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eaeaea;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+}
+.presson-image{
+    width: 155px;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style-type: none;
+    padding: 20px;
+}
+ul a{
+    text-decoration: none;
+    color: black;
+    font-family: serif;
+}
+ul a:hover{
+    border-bottom: 1px solid black;
+}
+h1{
+    font-family: 'Krona One';
+    font-weight: normal;
+}
+h2{
+    font-family: 'Krona One';
+    font-weight: normal;
+    font-size: 50px;
+}
+h3{
+    font-size: 30px;
+    font-family: 'Krona One';
+    font-weight: 400;
+}
+h4{
+    font-family: 'Krona One';
+    font-weight: normal;
+    font-size: 16px;
+}
+p{
+    font-family:'Roboto';
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 23px;
+}
+.section-one{
+    padding: 240px 180px 0 180px;
+    margin-right: 190px;
+    background-image: url(https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=656,h=656,fit=crop/YbNNearEvMSQMQz7/img-AwvvXrxxqbuyjRM2.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 490px;
+}
+.section-two{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;  
+}
+.section-two-second{
+    background-color: #d9dfe5;
+    display: flex;
+    justify-content: space-between;
+}
+.color-white{
+    color: #eaeaea;
+}
+.box-one{
+    padding:130px 0 100px 182px ;
+}
+.box-two{
+    padding:100px 173px ;
+}
+.box h1{
+    width: 130%;
+    font-size: 135px;
+    margin: 10px 0 80px 0;
+}
+.box p{
+    margin: 10px 0;
+    width: 50%;
+    color: black;
+}
+.lower-box{
+    display: flex;
+    justify-content: right;
+    padding:0 200px 80px 0;
+}
+.lower-box img{
+    padding: 15px;
+    width: 54px;
+}
+.point{
+    display: flex;
+    padding: 40px 0;
+}
+.point h4{
+    margin-bottom: 10px;
+}
+.white-line{
+    margin-top: 250px;
+}
+.section-three{
+    background-color: #eaeaea;
+    padding-bottom: 100px;
+}
+.box-three-one{
+    display: flex;
+    align-items: center;
+    padding:130px 150px 20px 150px;
+}
+.box-three-one p{
+    width: 48%;
+    padding-left: 20px;
+}
+.box-three-two{
+    display: flex;
+    padding:20px 120px 20px 160px;
+}
+.image-box{
+    padding:0 10px;
+}
+.image-box img{
+    padding: 5px;
+}
+h5{
+    font-family: 'Krona One';
+    font-weight: 400;
+    font-size: 22px;
+}
+h6{
+    color: #92a9c3;
+    font-family: 'Roboto';
+    font-size: 13px;
+}
+.box-three-three{
+    display: flex;
+    padding: 50px 150px;
+}
+.h-p-box{
+    width:42% ;
+}
+.h-p-box h5{
+    width: 70%;
+}
+.h-p-box h6{
+    width: 70%;
+    margin-top: 18px;
+}
+.box-three-three p{
+    width: 54%;
+}
+.box-three-four{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 150px;
+}
+span{
+    font-family: 'Krona One';
+    font-size: 32px;
+    color: #92a9c3;
+}
+.learnmore-button{
+    color: white;
+    background-color: rgb(31, 31, 31);
+    padding: 13px 70px;
+    font-family: 'Krona One';
+    font-size: 12px;
+    text-decoration: none;
+}
+.learnmore-button:hover{
+    background-color: black;
+}
+.box-four-one{
+    display: flex;
+    align-items: center;
+    padding:100px 70px 30px 150px;
+}
+.box-four-two{
+    display: flex;
+    padding: 0 150px;
+}
+.img-h-box{
+    padding: 10px;
+}
+.img-h-box h4{
+    margin-top: 10px;
+}
+.two-images{
+    cursor: pointer;
+}
+.two-images:hover{
+    color: whitesmoke;
+}
+.box-four-three{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 160px 150px 160px;
+}
+.box-four-three p{
+     width: 56%;
+}
+.seamore-button{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(31, 31, 31);
+    padding: 13px 70px;
+    font-family: 'Krona One';
+    font-size: 12px;
+}
+.section-four{
+    background-color: #d9dfe5;
+}
+.section-five{
+    background-color: #2b2c32;
+    color: white;
+    padding: 150px;
+}
+.star-image-box{
+    display: flex;
+}
+.star-image-box img{
+    margin-bottom: 140px;
+}
+.box-five-main{
+    display: flex;
+    justify-content: space-between;
+}
+.box-five-one{
+    display: flex;
+    flex-direction: column;
+    padding:80px 0 0 20px;
+}
+.box-five-one h4{
+    margin-bottom: 10px;
+}
+.box-five-one p{
+    width: 68%;
+}
+.point h1{
+    font-size: 100px;
+    margin-right: 20px;
+}
+.section-two-second h2{
+    width: 107%;
+}
+.black-line{
+    margin-top: 370px;
+}
+.section-six{
+    display: flex;
+    background-color: #eaeaea;
+    padding: 150px;
+}
+.box-six-one h6{
+    margin: 30px 0 100px 0;
+    color:black;
+}
+.box-six-one p{
+    width: 63%;
+}
+.box-six-two{
+    padding: 10px;
+}
+.section-seven{
+    display: flex;
+    padding: 150px 150px 100px 150px;
+    background-color: black;
+}
+.box-seven-two{
+    padding-left: 100px;
+}
+.box-seven-one p{
+    margin-top: 10px;
+    width: 72%;
+}
+.section-eight{
+    display: flex;
+    padding: 150px;
+    background-color: #eaeaea;
+}
+.box-eight-one h2{
+    width: 50%;
+}
+.box-eight-one p{
+    width: 50%;
+    margin: 10px 0 150px 0;
+}
+.input-one{
+    width: 500px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    padding-left: 10px;
+    height: 50px;
+    margin-bottom: 10px;
+    border: #f1f1f1;
+    background-color: #f1f1f1;
+}
+.input-two{
+    width: 500px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    padding: 10px 0 60px 10px;
+    margin-bottom: 10px;
+    border: #f1f1f1;
+    background-color: #f1f1f1;
+}
+.submit-button{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(31, 31, 31);
+    padding: 13px 70px;
+    font-family: 'Krona One';
+    font-size: 12px;
+    margin-left: 17.3rem;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 150px 150px 100px;
+    background-color: black;
+    color: #eaeaea;
+}
+footer h6{
+    color:#eaeaea ;
+    width: 55%;
+    margin-top: 10px;
+    line-height: 20px;
+}
+.footer-one{
+    padding-left: 100px;
+}
+.zyro{
+    margin-top: 50px;
+}
+.lower-footer{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+}
